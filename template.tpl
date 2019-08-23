@@ -194,14 +194,14 @@ const log = require('logToConsole');
 const query = require('queryPermission');
 const sendPixel = require('sendPixel');
 
-let host ='shopalike.'+ data.domain ;
+let host ='shopalike.'+ encodeUriComponent(data.domain) ;
 
 if(data.domain === 'de' || data.domain === 'at'){
-host= 'ladenzeile.'+ data.domain ;
+host= 'ladenzeile.'+ encodeUriComponent(data.domain) ;
 }
 
 // use the provided APIs to do things like send pixels
-const url = 'https://www.'+host+'/controller/visualMetaTrackingJs?cb=' +  encodeUriComponent(getTimestamp().toString())+
+const url = 'https://www.'+encodeUriComponent(host)+'/controller/visualMetaTrackingJs?cb=' +  encodeUriComponent(getTimestamp().toString())+
 '&trackingId='+  encodeUriComponent(data.trackingId)+
 '&version=a_0.0.1'+
 '&type=confirmed'+
@@ -221,4 +221,4 @@ data.gtmOnSuccess();
 
 ___NOTES___
 
-Created on 8/22/2019, 2:28:21 PM
+Created on 8/23/2019, 12:05:17 PM
