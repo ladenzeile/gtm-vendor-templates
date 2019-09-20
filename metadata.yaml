@@ -1,0 +1,5 @@
+homepage: ​"https://visual-meta.com"​,
+documentation: ​"https://github.com/visual-meta/gtm-vendor-templates/raw/master/VisualMetaSalesTracking-ImplementationGoogleTagManager-ForVMTemplate.pdf"​,
+versions:  
+	- ​sha: be0d2e41d7116f78d7a92ba206bffa7d94b41645​    ​
+	changeNotes: ​Initial release.
