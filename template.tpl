@@ -2,7 +2,7 @@
 
 {
 "displayName": "Sales Tracking Visual Meta",
-"description": "Fully track all your sales with Advanced Sales Tracking.",
+"description": "The Visual Meta Sales Tracking is an analytics tool that allows you to measure the effectiveness of your advertising in  LadenZeline / ShopAlike.",
 "securityGroups": [],
 "id": "cvt_temp_public_id",
 "type": "TAG",
