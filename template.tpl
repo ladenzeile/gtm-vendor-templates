@@ -1,8 +1,15 @@
-﻿___INFO___
+﻿___TERMS_OF_SERVICE___
+ By creating or modifying this file you agree to Google Tag Manager's Community
+ Template Gallery Developer Terms of Service available at 
+ https://developers.google.com/tag-manager/gallery-tos (or such other URL as 
+ Google may provide), as modified from time to time.
+ 
+ ___INFO___
 
 {
 "displayName": "Sales Tracking Visual Meta",
 "description": "The Visual Meta Sales Tracking is an analytics tool that allows you to measure the effectiveness of your advertising in  LadenZeline / ShopAlike.",
+"categories": ["CONVERSION_TRACKING"],
 "securityGroups": [],
 "id": "cvt_temp_public_id",
 "type": "TAG",
