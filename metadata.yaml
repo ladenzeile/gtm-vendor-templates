@@ -1,5 +1,9 @@
 homepage: "https://visual-meta.com"
 documentation: "https://github.com/visual-meta/gtm-vendor-templates/raw/master/VisualMetaSalesTracking-ImplementationGoogleTagManager-ForVMTemplate.pdf"
-versions:  
+versions:
+    # Latest version
+  - sha: f8ff9b271672440a84c43b1ee4466812a5e0cff3
+    changeNotes: Update logo and changed visual meta to ladenzeile.
+    # Older versions
   - sha: 5c1bba93185aae99e38470a1e6a3dff35030b3e1
     changeNotes: Initial release.
